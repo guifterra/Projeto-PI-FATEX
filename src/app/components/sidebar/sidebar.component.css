@@ -1,0 +1,16 @@
+.sta-position{
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.btn-logout{
+  padding: 0.8rem;
+  border-radius: 50%;
+  color: var(--red);
+}
+
+.btn-logout:hover{
+  color: var(--white);
+  background-color: var(--red);
+}

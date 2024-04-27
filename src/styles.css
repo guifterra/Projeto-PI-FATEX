@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+@import 'primeflex/primeflex.scss';
+
+/* Paleta de cores */
+:root{
+  --white: rgb( 241 , 242 , 246 );
+  --light-gray: rgb( 227 , 231 , 243 );
+  --dark-gray-1: rgb( 195 , 197 , 218 );
+  --dark-gray-2: rgb( 119 , 126 , 136 );
+  --red: rgb( 216 , 38 , 38 );
+}
+
+.bg-m-white{
+  background-color: var(--white);
+}
+
+.bg-m-gray1{
+  background-color: var(--light-gray);
+}
+
+.bg-m-gray2{
+  background-color: var(--dark-gray-1);
+}
+
+.bg-m-gray3{
+  background-color: var(--dark-gray-2);
+}
+
+.bg-m-red{
+  background-color: var(--red);
+}
+
+.color-m-white{
+  color: var(--white);
+}
+
+.color-m-gray1{
+  color: var(--light-gray);
+}
+
+.color-m-gray2{
+  color: var(--dark-gray-1);
+}
+
+.color-m-gray3{
+  color: var(--dark-gray-2);
+}
+
+.color-m-red{
+  color: var(--red);
+}
+
+.btn-hover:hover{
+  background-color: var(--light-gray);
+  color: var(--red);
+}
+
